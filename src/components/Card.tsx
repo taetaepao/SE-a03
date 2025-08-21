@@ -1,8 +1,7 @@
-import styles from './productcard.module.css';
+import styles from './card.module.css';
 import Image from 'next/image';
 
-
-export default function ProductCard() {
+export default function Card() {
   return (
     <div className={styles.card}>
       <div className={styles.cardimg}>
